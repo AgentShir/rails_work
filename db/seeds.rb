@@ -172,5 +172,18 @@ Movie.create!([
     director: "Patty Jenkins",
     duration: "141 min",
     image_file_name: "wonder-woman.png"
+  },
+  {
+    title: "La La Land",
+    description:
+    %{
+      While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.
+    }.squish,
+    released_on: "2016-12-25",
+    rating: "PG-13",
+    total_gross: 448_906_865,
+    director: "Damien Chazelle",
+    duration: "128 min",
+    image_file_name: "lalaland.png"
   }
 ])
